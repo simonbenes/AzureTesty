@@ -15,7 +15,7 @@ Param (
 # Firewall
 netsh advfirewall firewall add rule name="http" dir=in action=allow protocol=TCP localport=80
 netsh advfirewall firewall add rule name="rdp" dir=in action=allow protocol=TCP localport=3389
-netsh advfirewall firewall add rule name="test" dir=in action=deny protocol=TCP localport=1234
+netsh advfirewall firewall add rule name="test" dir=in action=block protocol=TCP localport=1234
 
 # Folders
 New-Item -ItemType Directory c:\temp
