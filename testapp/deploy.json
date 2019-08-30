@@ -354,7 +354,7 @@
             "autoUpgradeMinorVersion": true,
             "settings": {
               "fileUris": [
-                "https://raw.githubusercontent.com/Microsoft/dotnet-core-sample-templates/master/dotnet-core-music-windows/scripts/configure-music-app.ps1"
+                "https://raw.githubusercontent.com/simonbenes/AzureTesty/master/testapp/script1.ps1"
               ]
             },
             "protectedSettings": {
